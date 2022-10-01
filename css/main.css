@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  background-color: hsl(217deg, 54%, 11%);
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 100vh;
+  margin-top: 8rem;
+}
+
+.box {
+  background-color: hsl(216deg, 50%, 16%);
+  width: 300px;
+  height: 510px;
+  border-radius: 15px;
+}
+.box .image {
+  height: 250px;
+  width: 250px;
+  margin: 10px 0 30px 0;
+  border-radius: 15px;
+}
+.box .image .equilibrium {
+  height: 250px;
+  width: 250px;
+  margin: 20px 0 0 25px;
+  border-radius: 15px;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+.box h3 {
+  color: white;
+  margin: 1rem 0 0 2rem;
+  cursor: pointer;
+}
+.box h3:hover {
+  color: hsl(178deg, 100%, 50%);
+  transition: 0.5s ease-in;
+}
+.box p {
+  color: hsl(215deg, 51%, 70%);
+  margin: 1rem 0 0 2rem;
+  font-weight: 300;
+  font-size: 16px;
+}
+.box .info {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 1.5rem 0 2rem;
+}
+.box .info .eth {
+  margin-right: 4em;
+  color: hsl(178deg, 100%, 50%);
+}
+.box .info .days {
+  color: hsl(215deg, 51%, 70%);
+}
+.box .line {
+  background-color: hsl(215deg, 51%, 70%);
+  padding: 1px;
+  opacity: 0.2;
+  margin: 1.5rem 1.5rem 0 2rem;
+}
+.box .cardAvatar {
+  display: flex;
+  justify-content: flex-start;
+  margin: 1rem 0 0 2rem;
+}
+.box .cardAvatar img {
+  height: 35px;
+}
+.box .cardAvatar p {
+  margin: 0.5rem 2rem 0 1rem;
+  font-size: 15px;
+}
+.box .cardAvatar span {
+  color: white;
+}
+
+@media only screen and (max-width: 1024px) {
+  main {
+    min-width: -webkit-fit-content;
+    min-width: -moz-fit-content;
+    min-width: fit-content;
+    max-height: -webkit-fit-content;
+    max-height: -moz-fit-content;
+    max-height: fit-content;
+    margin-top: 4rem;
+  }
+}/*# sourceMappingURL=main.css.map */
